@@ -1,0 +1,99 @@
+* {
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+}
+
+body {
+    background-color: rgb(248, 217, 248);
+    line-height: 1.5;
+    word-spacing: 1.4px;
+    font-family: 'Roboto', sans-serif;
+    height: 100%;
+    /* align-items: center;
+    justify-content: center;
+    display: flex; */
+    color: black;
+}
+
+.card__container {
+    display: flex;
+    width: 60%;
+    height: 70%;
+    margin: 50px auto;
+}
+
+.card {
+    border: 2px solid;
+    height: 500px;
+    margin: auto 10px;
+    border-radius: 15px;
+}
+
+.card__logo {
+    height: 45px;
+    width: 40px;
+    margin-left: 15px;
+    margin-top: 15px;
+    border-radius: 50%;
+}
+
+.card__image {
+    height: 190px;
+    width: 50%;
+    border-radius: 50%;
+    display: flex;
+    margin: auto;
+}
+
+.card__user {
+    font-size: 25px;
+    font-weight: 300;
+    text-align: center;
+}
+
+.card__user--position {
+    font-size: 17px;
+    font-weight: 300;
+    text-align: center;
+}
+
+.card__text {
+    font-size: 15px;
+    font-weight: 300;
+    text-align: center;
+    margin-top: 15px;
+    margin-bottom: 15px;
+}
+
+.user--mail {
+    padding: 5px 20px;
+    border-radius: 5px;
+    color: white;
+    background-color: brown;
+    text-decoration: none;
+}
+
+.card__user--contact {
+    display: grid;
+    place-items: center;
+}
+
+.card__media {
+    text-align: center;
+    margin-top: 10px;
+    cursor: pointer;
+}
+
+.card__media a {
+    height: 20px;
+    margin: 15px;
+}
+
+.card--1 {
+    background-color: rgb(32, 145, 176);
+}
+
+.card--2 {
+    background-color: rgb(95, 123, 123);
+}
