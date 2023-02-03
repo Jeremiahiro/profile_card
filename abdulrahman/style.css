@@ -10,17 +10,18 @@ body {
     word-spacing: 1.4px;
     font-family: 'Roboto', sans-serif;
     height: 100%;
-    /* align-items: center;
-    justify-content: center;
-    display: flex; */
     color: black;
+    position: relative;
 }
 
 .card__container {
     display: flex;
     width: 60%;
-    height: 70%;
-    margin: 50px auto;
+    height: auto;
+    margin: 300px auto;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    position: absolute;
 }
 
 .card {
