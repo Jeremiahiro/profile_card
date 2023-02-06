@@ -4,6 +4,10 @@
     box-sizing: border-box;
 }
 
+html {
+    scroll-behavior: smooth;
+}
+
 body {
     background-color: rgb(248, 217, 248);
     line-height: 1.5;
@@ -18,10 +22,7 @@ body {
     display: flex;
     width: 60%;
     height: auto;
-    margin: 300px auto;
-    left: 50%;
-    transform: translate(-50%, -50%);
-    position: absolute;
+    margin: 50px auto;
 }
 
 .card {
@@ -41,7 +42,7 @@ body {
 
 .card__image {
     height: 190px;
-    width: 50%;
+    width: 190px;
     border-radius: 50%;
     display: flex;
     margin: auto;
