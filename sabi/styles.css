@@ -1,0 +1,47 @@
+
+.content {
+    display: grid;
+    grid-template-columns: 1fr 1fr 1fr 1fr;
+    padding: 20px;
+}
+.frame {
+    display: flex;
+    width: 500px;
+    padding: 50px;
+    margin: 20px auto;
+  }
+  .one {
+    width: 425px;
+    height: 100%;
+    background-color: #efb762;
+    margin: 20px auto;
+  }
+  .two {
+    width: 425px;
+    height: 100%;
+    background-color: #efb762;
+    margin: 20px auto;
+  }
+  .logo {
+    display: grid;
+    align-items: flex-start;
+    width: fit-content;
+  }
+.content div {
+    border: 2rem;
+    display:flexbox;
+    align-content: space-between;
+    margin: 10px;
+    padding: 3px;
+    text-align: center;
+
+}
+.content div h5 {
+    padding: 10px;
+    font-family: 'Times New Roman', Times, serif;
+}
+.content div img {
+    width: 80px;
+    height: 80px;
+    
+}
