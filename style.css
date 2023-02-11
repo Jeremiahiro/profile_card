@@ -1,0 +1,70 @@
+* {
+    margin: 0;
+    outline: 0;
+}
+
+body {
+    background-color: plum;
+}
+
+.container {
+    width: 60%;
+    height: 100vh;
+    display: flex;
+    margin: auto;
+    align-items: center;
+    justify-content: center;
+    text-align: center;
+}
+
+.container div {
+    border-radius: 20px;
+    margin: 20px;
+    padding: 20px;
+}
+
+.container-left {
+    background-color: indigo;
+    color: white;
+}
+
+.container-right {
+    background-color: whitesmoke;
+}
+
+.container img {
+    width: 150px;
+    height: 150px;
+    border-radius: 50%;
+    margin: 10px auto;
+}
+
+.description {
+    font: 10px;
+    padding: 20px;
+}
+
+.contact {
+    text-decoration: none;
+    background-color: rgb(136, 57, 193);
+    padding: 6px 12px;
+    border-radius: 20px;
+    color: white;
+}
+
+.container-right .contact {
+    background-color: rgb(75, 0, 130);
+}
+
+.links {
+    display: flex;
+    justify-content: space-around;
+}
+
+.container-left .links a {
+    color: rgb(176, 126, 213);
+}
+
+.container-right .links a {
+    color: indigo;
+}
