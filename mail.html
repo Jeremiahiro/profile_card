@@ -1,0 +1,84 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Email Signature</title>
+</head>
+<style>
+    .container {
+        background-color: whitesmoke;
+        display: flex;
+        align-items: center;
+        justify-content: space-around;
+        padding: 20px;
+        margin: 10px auto;
+        max-width: 40%;
+    }
+    .profile_image {
+        width: 200px;
+        height: 200px;
+        border-radius: 50%;
+        background-image: url('https://res.cloudinary.com/iro/image/upload/v1677493491/IRO.png');
+        background-position: center;
+        background-size: cover;
+        background-repeat: no-repeat;
+    }
+
+    .profile_details {
+        text-align: center;
+    }
+    .detail {
+        margin: 10px auto;
+    }
+    .detail h2,
+    .detail p {
+        margin: 0;
+        padding: 0;
+        letter-spacing: 2px;
+    }
+    .detail h2 {
+        text-transform: uppercase;
+        padding: 0;
+    }
+    .contact_info {
+        display: flex;
+        align-items: center;
+        text-align: left;
+        border-bottom: 2px solid black;
+        padding: 8px;
+    }
+    .contact_info img {
+        width: 14px;
+        padding-right: 10px;
+    }
+    .contact_info a {
+        text-decoration: none;
+        color: inherit;
+    }
+</style>
+<body>
+    <div class="container">
+        <div class="profile_image"></div>
+        <div class="profile_details">
+            <div class="detail">
+                <h2>Jeremiah Iromaka</h2>
+                <p>Software Developer</p>
+            </div>
+            <div class="contact_info">
+                <img src="https://res.cloudinary.com/iro/image/upload/v1677493481/phone.png" alt="Contact Me">
+                <a href="tel:+447939683379">+44 7939 683379</a>
+            </div>
+            <div class="contact_info">
+                <img src="https://res.cloudinary.com/iro/image/upload/v1677493481/mail.png" alt="Contact Me">
+                <a href="mailto:jeremiahiro@gmail.com">jeremiahiro@gmail.com</a>
+            </div>
+            <div class="contact_info">
+                <img src="https://res.cloudinary.com/iro/image/upload/v1677493481/globe.png" alt="Contact Me">
+                <a href="https://about.me/jeremiahiro" target="_blank">https://about.me/jeremiahiro</a>
+            </div>
+        </div>
+    </div>
+</body>
+</html>
